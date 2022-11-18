@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8" />
+        <meta name = "viewport" content="initial-scale = 1, width = device-width"/>
+        <title> Mit KI Casiono unsicher machen </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename = 'css/main.css') }}">
+    </head>
+    <br>
+    <br>
+    <body>
+        <form action="/reset" method="get">
+            <h1>{{entries}}</h1>
+            <input type="submit" value="reset" id="reset">
+    </body>
+</html>
